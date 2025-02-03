@@ -1,0 +1,44 @@
+/* Keanu Foltz about bioSite */
+body {
+    font-family: 'Oxygen', serif;
+    background-color: #0cc0df;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#container {
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #0047AB;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

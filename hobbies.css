@@ -1,0 +1,46 @@
+/* Keanu Foltz hobbies bioSite */
+body {
+    font-family: 'Oxygen', serif;
+    background-color: #0cc0df;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+#painting {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+#painting img{
+    width: 500px;
+    height: auto;
+}
+
+nav {
+    background-color: #0047AB;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

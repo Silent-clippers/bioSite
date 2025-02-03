@@ -1,0 +1,47 @@
+/* Keanu Foltz index bioSite */
+body {
+    font-family: 'Oxygen', serif;
+    background-color: #0cc0df;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+h2 {
+    padding-left: 30px;
+}
+
+#images {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 20 px;
+}
+
+#images img {
+    height: 300px;
+    width: auto;
+    padding: 20px;
+}
+
+nav {
+    background-color: #0047AB;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
