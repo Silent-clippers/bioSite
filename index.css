@@ -34,7 +34,7 @@ figure {
     align-items: center;
     margin: 0;
     padding: 0;
-    
+
 }
 
 figcaption {
@@ -69,3 +69,19 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+footer {
+    background-color: #0047AB;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
